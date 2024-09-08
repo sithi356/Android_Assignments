@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/sky_blue">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_ju"
+        android:layout_gravity="left"
+        android:layout_marginBottom="12dp"
+        android:background="@color/plum"
+        android:contentDescription="@string/logo_description"/>
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile1"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Syeda Faria Sithi"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/dept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department: Computer Science and Engineering"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/id_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student ID Number: 20200650726"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Session: 2019-2020"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/batch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batch: 49"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Roll: 356"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:id="@+id/Blood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group: AB-"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/validity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validity: 30-08-2025"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign: "
+        android:textSize="15sp"/>
+    <ImageView
+        android:id="@+id/sign_i"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/sign" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/email_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/gmail"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Email"/>
+        <ImageButton
+            android:id="@+id/whatsapp_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/whatsapp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Whatsapp"/>
+        <ImageButton
+            android:id="@+id/instagram_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/instagram"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Instagram"/>
+        <ImageButton
+            android:id="@+id/linkedin_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/linkedin"
+            android:contentDescription="LinkedIN"/>
+        <ImageButton
+            android:id="@+id/github_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/github"
+            android:contentDescription="GitHub"/>
+        <ImageButton
+            android:id="@+id/telegram_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/telegram"
+            android:contentDescription="Telegram"/>
+        <ImageButton
+            android:id="@+id/facebook_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/facebook"
+            android:contentDescription="Facebook"/>
+        <ImageButton
+            android:id="@+id/call_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/call"
+            android:contentDescription="Call"/>
+
+    </GridLayout>
+
+
+</LinearLayout>
